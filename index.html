@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Почему vim?</title>
+  <link rel="stylesheet" href="js/reveal.js-master/css/reveal.css" />
+  <link rel="stylesheet" href="js/reveal.js-master/lib/css/zenburn.css">
+  <link rel="stylesheet" href="js/reveal.js-master/css/theme/solarized.css" />
+  <style>
+    @font-face {
+      font-family: "League Gothic";
+      src: url(font/league-gothic-cyrillic/OT-tt/LeagueGothicCyrillic.ttf) format("truetype");
+    }
+  </style>
+</head>
+
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section>
+        <h3>Почему vim?</h3>
+        <img src="img/vim_logo.png" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>С чего все началось?</h3>
+        <ul>
+          <li class="fragment">Каким-то неведомым образом я стал программистом</li>
+          <li class="fragment">Первые деньги заработал на языке C#</li>
+          <li class="fragment">Соответственно, использовал Visual Studio</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Visual Studio - очень развесистая IDE и очень мощная</h3>
+        <img src="./img/vs-1.png" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Ну слишком развесистая...</h3>
+        <img src="./img/vs-2.png" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Порой c VS все становится похоже на визуальное программирование</h3>
+        <img src="./img/visual.png" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Но уже тогда я стал понимать одну очень важную вещь:</h3>
+        <p class="fragment">Нельзя писать код, не используя слепой десятипальцевый метод набора текста</p>
+      </section>
+      <section>
+        <h3>Первый тезис: слепой набор очень важен для программиста!</h3>
+        <p>Только человек, владеющий данным способом набора текста, может удобно пользоваться
+          автокомплитом, так как не тратит время на переключение внимания с клавиатуры
+          на экран и обратно</p>
+      </section>
+      <section>
+        <h3>Тогда же я стал понимать и другую вещь:</h3>
+        <p>В VS нужно постоянно что-то настраивать в меню проекта, меню сборки, меню
+          меню меню меню меню меню...</p>
+      </section>
+
+      <section>
+        <h3>Ксати, думаете Visual Studio проще vim'a? Как бы не так</h3>
+      </section>
+      <section>
+        <h3>Книга по vim: 346 страниц</h3>
+        <img src="./img/book-1.jpg" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Книга по VS: 1320 страниц</h3>
+        <img src="./img/book-2.jpg" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Но суть не в этом. Самое главное что:</h3>
+        <ul>
+          <li class="fragment">Подобные IDE мешают пониманию технологии, скрывая их за различными меню</li>
+          <li class="fragment">Человек тратит много времени на изучение конкнтерной IDE, а не языка,
+            технологий. Отними IDE, или дай другую - он ничего не сможет сделать</li>
+          <li class="fragment">Со временем становишся заложником стэка технологий, не понимая, как и
+            что работает без знакомой IDE, в которой настраивается конфигурация,
+            которая делает билд и потом еще деплоит</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Позже в моей профессиональной жизни последовала смена стэка технологий</h3>
+        <p>Хоть тогда уже у меня был опыт работы в vim, но мне нужно было быстро начать
+          работать, и я выбрал...</p>
+      </section>
+      <section>
+        <h3>Sublime Text</h3>
+        <img src="./img/sublime.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <p>Это отличный гибкий в настойке редактор, позволяющий очень эффективно работать
+          с кодом, расширяя свои возможности многочисленными плагинами</p>
+      </section>
+      <section>
+        <h3>Второй тезис: редактор или IDE должны работать очень быстро и быть очень хорошо настраиваемыми</h3>
+      </section>
+      <section>
+        <h3>Чем дальше в лес, тем больше осознание одной простой истины...</h3>
+      </section>
+      <section>
+        <h3>Программисты - воины клавиантуры!</h3>
+        <img src="./img/warriors.jpg" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Это значит, что:</h3>
+        <ul>
+          <li class="fragment">Мы очень много пишем!</li>
+          <li class="fragment">И еще больше редактируем!!</li>
+          <li class="fragment">А самое важное - мы перемещаемся по тексту!!!</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Третий тезис: чем чаще мы переносим руки с "основной" клавиатуры на мышь, или дополнительные клавиши, тем больше тратим времени</h3>
+      </section>
+      <section>
+        <h3>Итак, почему же vim?</h3>
+        <ul>
+          <li class="fragment">Vim позволяет на всю использовать навык слепого набора текста</li>
+          <li class="fragment">Vim очень быстрый и отлично настраиваемый редактор с бесчисленным множеством
+            плагинов</li>
+          <li class="fragment">Vim позволят вообще не убирать руки с основной клавиатуры. Делая процесс
+            редактирования кода, перемещение по нему и его написание наиболее эффективным</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Немного VIM</h3>
+        <img src="./img/5oG8UI3YTB.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Быстрое перемещение к нужному месту в строке</h3>
+        <img src="./img/0eG5FBDJd8.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Быстрый replace нужного слова</h3>
+        <img src="./img/2IkJT6iWXt.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Быстрое перемещение по тексту куда угодно :)</h3>
+        <img src="./img/p1O98kiH1Y.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Немного о Tmux</h3>
+        <img src="./img/kfMoKspcYn.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Tmux поможет вам использовать рабочее пространство максимально эффективно</h3>
+        <p class="fragment">Не используя мышь ;)</p>
+      </section>
+      <section>
+        <h4>Пример автоматического запуска сборки и тестов в соседней панели tmux</h4>
+        <img src="./img/oYKXrFr8fx.gif" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Почему не vim-mode?</h3>
+        <p class="fragment">Ответ очень простой - там работает не все</p>
+      </section>
+      <section>
+        <h3>А важно ли это все?</h3>
+        <p class="fragment">Да, очень важно использовать свой инструмент на всю катушку, даже если
+          это не Vim.</p>
+        <p class="fragment">
+          Но ваш редактор или IDE не должны скрывать от вас детали технологии...
+        </p>
+      </section>
+      <section>
+        <h3>Ведь, как сказал великий киллер...</h3>
+        <img src="./img/leon.jpg" alt="" style="border: none; box-shadow: none;">
+      </section>
+      <section>
+        <h3>Винтовка — это первое оружие, которым ты должна научиться пользоваться. Потому что оно держит тебя на почтительном расстоянии от клиента. Чем больше опыта, тем ближе подходишь к клиенту.</h3>
+      </section>
+    </div>
+  </div>
+  <script src="js/reveal.js-master/lib/js/head.min.js" type="text/javascript"></script>
+  <script src="js/reveal.js-master/js/reveal.js" type="text/javascript"></script>
+  <script>
+    // Full list of configuration options available at:
+     // https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize(
+    {
+      controls: true,
+      progress: true,
+      history: true,
+      center: true,
+
+      transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+      // Optional reveal.js plugins
+      dependencies: [
+      {
+        src: 'js/reveal.js-master/lib/js/classList.js',
+        condition: function()
+        {
+          return !document.body.classList;
+        }
+      },
+      {
+        src: 'js/reveal.js-master/plugin/markdown/marked.js',
+        condition: function()
+        {
+          return !!document.querySelector('[data-markdown]');
+        }
+      },
+      {
+        src: 'js/reveal.js-master/plugin/markdown/markdown.js',
+        condition: function()
+        {
+          return !!document.querySelector('[data-markdown]');
+        }
+      },
+      {
+        src: 'js/reveal.js-master/plugin/highlight/highlight.js',
+        async: true,
+        condition: function()
+        {
+          return !!document.querySelector('pre code');
+        },
+        callback: function()
+        {
+          hljs.initHighlightingOnLoad();
+        }
+      },
+      {
+        src: 'js/reveal.js-master/plugin/zoom-js/zoom.js',
+        async: true
+      },
+      {
+        src: 'js/reveal.js-master/plugin/notes/notes.js',
+        async: true
+      }]
+    });
+  </script>
+</body>
+
+</html>
+
